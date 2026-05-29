@@ -10,10 +10,10 @@ contents: write
 
 jobs:
 build:
-runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
 
-steps:
+  steps:
   - name: Generate Snake
     uses: Platane/snk@v3
     with:
